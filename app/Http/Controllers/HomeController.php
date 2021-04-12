@@ -17,4 +17,4 @@ class HomeController extends Controller
         $horsCondit = DB::table('membres')->whereNotBetween('age', [18, 24])->get();
         return view ('home', compact('membres', 'hommes', 'femmes', 'hommesCondit', 'femmesCondit', 'horsCondit'));
     }
-}
+};
