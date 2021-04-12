@@ -8,4 +8,5 @@
     @include('sections.section4')
     @include('sections.section5')
     @include('sections.section6')
+    @include('partials.footer')
 @endsection
